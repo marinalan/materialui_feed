@@ -17,7 +17,7 @@ import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 import { Tooltip } from '@material-ui/core'
 import style from '../../styles/TopBar.module.css'
-import { NAME_AND_DOMAIN } from '../types/constants.ts'
+import { NAME_AND_DOMAIN } from '../types/constants'
 import { author_name } from '../types/constants'
 
 const StyledBadge = withStyles((theme: Theme) =>
